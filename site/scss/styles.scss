@@ -1,1 +1,25 @@
-body {}
+@import "normalize";
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "base/base";
+@import "components/components";
+@import "patterns/patterns";
+
+#main {
+	@include outer-container();
+	background-color: #efefef;
+}
+
+#top-row {
+	@include span-columns(12);
+}
+
+#middle-row {
+	@include span-columns(12);
+	background-color: #fefefe;
+}
+
+#bottom-row {
+	@include span-columns(12);
+	background-color: #dfdfdf;
+}
