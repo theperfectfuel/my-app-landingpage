@@ -5,21 +5,82 @@
 @import "components/components";
 @import "patterns/patterns";
 
+body {
+	font-family: $helvetica;
+	background-color: orange;
+} // close body
+
 #main {
-	@include outer-container();
-	background-color: #efefef;
+	@include outer-container(100%);
+	background-color: tint(#fff, 50%);
 }
 
-#top-row {
+#content {
+	//width: 40em;
+	//margin: 0 auto;
+	@include outer-container(60em);
+}
+
+#inner-content {
+	@include span-columns(10);
+	@include shift(1);
+}
+
+#middle-row, #button-row {
 	@include span-columns(12);
 }
 
 #middle-row {
-	@include span-columns(12);
-	background-color: #fefefe;
+	background-color: #fff;
 }
 
-#bottom-row {
+#button-row {
+	background-color: #fff;
+	text-align: center;
+	padding-top: 2em;
+}
+
+h1 {
+	font-size: $h1-font-size;
+	padding: 1em 0 .5em;
+}
+
+h2 {
+	font-size: $h2-font-size;
+}
+
+header {
+	background-color: white;
+}
+
+footer {
 	@include span-columns(12);
-	background-color: #dfdfdf;
+	background-color: $nav-bgcolor;
+}
+
+nav {
+	background-color: tint($nav-bgcolor, 10%);
+	//font-family: $monospace;
+	height: $base-spacing * 2.5;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: $light-action-color;
+  }
+}
+
+.site-footer {
+	background-color: orange;
+	text-align: center;
+	height: 150px;
+	padding-top: 2em;
 }

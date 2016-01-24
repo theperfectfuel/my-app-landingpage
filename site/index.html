@@ -15,58 +15,66 @@
     </head>
 
     <body>
-        <div id="main">
+        <div id="main" class="page-wrap">
 
             <nav>
                 <ul>
                     <li>
-                        <a href="#">home</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">about</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">contact</a>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
             </nav>
 
-            <header>
-                <h1>The Coolest App</h1>
-            </header>
+            <div class="hero">
+                <div class="hero-inner">
+                <a href="" class="hero-logo"><img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png
+            " alt="Logo Image"></a>
+                    <div class="hero-copy">
+                        <h1>Think you know hockey?</h1>
+                        <p>Take this quiz and find out.</p>  
+                        <h2><button>Play Now!</button></h2>  
+                    </div>
+                </div>
+            </div>
 
-            <section id="top-row">
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+            <div id="content">
+                <div id="inner-content">
 
-            <section id="middle-row">
-                <ul>
-                    <li>
-                        <img src="images/screenshot-1.jpg">
-                        <h2>It does this!</h2>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                    <li>
-                        <img src="images/screenshot-2.jpg">
-                        <h2>It does that!</h2>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                    <li>
-                        <img src="images/screenshot-3.jpg">
-                        <h2>Did we mention it does this?</h2>
-                        <p>Lorem ipsum dolor sit.</p>
-                    </li>
-                </ul>
-            </section>
+                    <section id="middle-row">
+                        <ul>
+                            <li>
+                                <h2>Know your hockey history?</h2>
+                                <p>Take this quiz and find out.</p>
+                            </li>
+                            <li>
+                                <h2>What do you know?</h2>
+                                <p>Where did teams originate?</p>
+                                <p>What players hold some of the longest records?</p>
+                                <p>And much more...</p>
+                            </li>
+                        </ul>
+                    </section>
 
-            <section id="bottom-row">
-                <a href="#">Play Now!</a>
-            </section>
+                    <div><h2>Here are some hockey related movies for you to check out.  Enjoy.</h2></div>
+                    <div id="search-results"></div>
 
-            <footer>
+                </div> <!-- close inner-content div -->
+
+            </div> <!-- close content div -->
+
+            <footer class="site-footer">
                 <div class="social">Twitter, Facebook, and Google+ share buttons</div>
                 <p>More footer stuff. Probably copyrights and links to terms of use and privacy statements.</p>
             </footer>
-        </div>
+
+        </div> <!-- close main div -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
