@@ -1,32 +1,32 @@
 var questions = [
 		{
 		id: 0,
-		text: "Why is hockey the best sport in the world?",
-		answers: ["Because", "Why not", "Sometimes", "Don't know", "Sure"],
+		text: "Why is the red line broken?",
+		answers: ["Because of black and white TV", "So the skaters won't trip", "To make it easier to call offsides", "Because of the way the ice freezes", "To save on paint"],
 		correct: 0,
 		},
 		{
 		id: 1,
-		text: "What is hockey",
-		answers: ["The best", "A Game", "Sometimes a job", "Don't know", "Something"],
+		text: "Who was the first player to score 50 goals in one season?",
+		answers: ["Eddie Shore", "Doug Bentley", "Gordie Howe", "Maurice Richard", "Wayne Gretzky"],
 		correct: 3,
 		},
 		{
 		id: 2,
-		text: "How is hockey",
-		answers: ["Nice", "Good", "Sometimes great", "Don't know", "Awesome"],
+		text: "Who was the first goaltender to score in NHL history?",
+		answers: ["Grant Fuhr", "Patrick Roy", "Gerry Cheevers", "Bernie Parent", "Billy Smith"],
 		correct: 4,
 		},
 		{
 		id: 3,
-		text: "When is hockey",
-		answers: ["Then", "Not then", "Sometime", "Don't know", "Now"],
+		text: "What was the first team to ever pull their goalie for an extra skater?",
+		answers: ["Philadelphia Flyers", "New York Rangers", "Montreal Canadiens", "Boston Bruins", "Detroit Red Wings"],
 		correct: 1,
 		},
 		{
 		id: 4,
-		text: "Where is hockey",
-		answers: ["There", "Not there", "Somewhere", "Don't know", "Here"],
+		text: "How many points did Gretzky score his rookie year in the NHL?",
+		answers: ["137", "51", "86", "212", "79"],
 		correct: 0,
 		}
 ];
