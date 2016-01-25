@@ -84,3 +84,62 @@ nav {
 	height: 150px;
 	padding-top: 2em;
 }
+
+.modal-trigger {
+	color: white;
+	font-size: 1.3em;
+}
+
+#gameboard {
+	min-height: 65%;
+	width: 80%;
+	position: absolute;
+	margin: 0 auto;
+	top: 70px;
+	left: 50%;
+	background-color: #efefef;
+	-webkit-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	display: none;
+	border-radius: 3px;
+	box-shadow: 3px 3px 7px rgba(0,0,0,.5);
+	z-index:2;
+}
+
+#gameShadow {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,.7);
+	z-index: 1;
+	display: none;
+}
+
+#questions {
+	position: relative;
+	margin: 1em 1em 0;
+}
+
+.buttons {
+	position: fixed;
+	bottom: 10px;
+	width: 80%;
+	margin: 0 2em;
+}
+
+.closeGame {
+	float: right;
+}
+
+.nextQuestion {
+	float: left;
+}
+
+.questionHeading {
+	font-size: 1.8em;
+}
+
+.runningTotal, .message {
+	font-size: 1.3em;
+	padding-top: .5em;
+}
