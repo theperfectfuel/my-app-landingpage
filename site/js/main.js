@@ -67,7 +67,7 @@ $(document).ready(function() {
 
 			for (x = 0; x < questions.length; x++) {
 				$(".quizForm")
-				.append("<div><input type=radio name=hockeyQuiz value=" + x + ">" + currentQuestion.answers[x] + "</input></div>");
+				.append("<div><label><input type=radio name=hockeyQuiz value=" + x + ">" + currentQuestion.answers[x] + "</input></label></div>");
 			}
 			//console.log("current answer: " + currentQuestion.correct);
 	}
