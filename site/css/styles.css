@@ -471,11 +471,9 @@ nav {
 
 #questions {
   position: relative;
-  margin: 1em 1em 0; }
+  margin: 1em 1em 4em 1em; }
 
 .buttons {
-  position: fixed;
-  bottom: 10px;
   width: 80%;
   margin: 0 2em; }
 
@@ -491,3 +489,6 @@ nav {
 .runningTotal, .message {
   font-size: 1.3em;
   padding-top: .5em; }
+
+.communication {
+  height: 6em; }
