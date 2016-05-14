@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-	var query = $("#query").val();
-	getSearch(query);
-
 	$("#playNow").on("click", function(e) {
 		$("#gameShadow").css("display", "block");
 		$("#gameboard").css("display", "block");
@@ -66,7 +63,6 @@ $(document).ready(function() {
 				$(".quizForm")
 				.append("<div><label><input type=radio name=hockeyQuiz value=" + x + ">" + currentQuestion.answers[x] + "</input></label></div>");
 			}
-			//console.log("current answer: " + currentQuestion.correct);
 	}
 
 	function scoreQuestion() {
@@ -80,7 +76,6 @@ $(document).ready(function() {
 			msg = "Nope.";
 		}
 		return msg;
-		//console.log("current numCorrect" +numCorrect);
 	}
 
 	function setTotal() {
