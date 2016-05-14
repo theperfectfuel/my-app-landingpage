@@ -4,7 +4,7 @@ $(document).ready(function() {
 		$("#gameShadow").css("display", "block");
 		$("#gameboard").css("display", "block");
 		e.preventDefault();
-		startGame();
+		loadQuestion();
 	});
 
 	$(".closeGame").on("click", function(e) {
@@ -41,13 +41,7 @@ $(document).ready(function() {
 		clearGameboard();
 	}
 
-	function startGame() {
-		// clearQuiz();
-		loadQuestion();
-	}
-
 	function clearGameboard() {
-		//$('.quizForm').trigger("reset");
 		$(".questionHeading").html('');
 		$(".quizForm").html('');
 		$(".runningTotal").html('');
