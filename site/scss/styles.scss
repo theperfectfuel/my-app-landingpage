@@ -18,7 +18,8 @@ body {
 #content {
 	//width: 40em;
 	//margin: 0 auto;
-	@include outer-container(60em);
+	@include outer-container(78em);
+	text-align: center;
 }
 
 #inner-content {
@@ -174,4 +175,12 @@ nav {
 
 .communication {
 	height: 6em;
+}
+
+#video-section img {
+  padding: 10px; 
+}
+
+#video-section li {
+  display: inline-block; 
 }

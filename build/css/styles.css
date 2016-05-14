@@ -794,9 +794,10 @@ body {
     display: table; }
 
 #content {
-  max-width: 60em;
+  max-width: 78em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  text-align: center; }
   #content::after {
     clear: both;
     content: "";
@@ -940,3 +941,9 @@ nav {
 
 .communication {
   height: 6em; }
+
+#video-section img {
+  padding: 10px; }
+
+#video-section li {
+  display: inline-block; }
