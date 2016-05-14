@@ -1,10 +1,7 @@
 $(document).ready(function() {
 
-	$(this).ready(function(event) {
-		var query = $("#query").val();
-		getSearch(query);
-		//event.preventDefault();
-	});
+	var query = $("#query").val();
+	getSearch(query);
 
 	$("#playNow").on("click", function(e) {
 		$("#gameShadow").css("display", "block");
