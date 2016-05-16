@@ -473,7 +473,7 @@ nav {
 #gameboard {
   min-height: 65%;
   width: 90%;
-  position: absolute;
+  position: fixed;
   margin: 0 auto;
   top: 70px;
   left: 50%;
