@@ -49,14 +49,14 @@ $(document).ready(function() {
 	}
 
 	function loadQuestion() {
-			currentQuestion = questions[questionCount];
-			displayCount = questionCount+1;
-			$(".questionHeading").append("Question " + displayCount + " out of " + questions.length + ": <br />" + currentQuestion.text);
+		currentQuestion = questions[questionCount];
+		displayCount = questionCount+1;
+		$(".questionHeading").append("Question " + displayCount + " out of " + questions.length + ": <br />" + currentQuestion.text);
 
-			for (x = 0; x < questions.length; x++) {
-				$(".quizForm")
-				.append("<div><label><input type=radio name=hockeyQuiz value=" + x + ">" + currentQuestion.answers[x] + "</input></label></div>");
-			}
+		for (x = 0; x < questions.length; x++) {
+			$(".quizForm")
+			.append("<div><label><input type=radio name=hockeyQuiz value=" + x + ">" + currentQuestion.answers[x] + "</input></label></div>");
+		}
 	}
 
 	function scoreQuestion() {
@@ -105,6 +105,5 @@ $(document).ready(function() {
 			$(".message").html("Please answer the question.");
 		}
 	});
-
 
 });

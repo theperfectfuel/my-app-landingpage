@@ -63,20 +63,20 @@ nav {
 	background-color: tint($nav-bgcolor, 10%);
 	//font-family: $monospace;
 	height: $base-spacing * 2.5;
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
 
-  li { display: inline-block; }
+	li { display: inline-block; }
 
-  a {
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-    color: $light-action-color;
-  }
+	a {
+		display: block;
+		padding: 6px 12px;
+		text-decoration: none;
+		color: $light-action-color;
+	}
 }
 
 .hero {
@@ -178,9 +178,9 @@ nav {
 }
 
 #video-section img {
-  padding: 10px; 
+	padding: 10px; 
 }
 
 #video-section li {
-  display: inline-block; 
+	display: inline-block; 
 }
